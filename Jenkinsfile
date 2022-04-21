@@ -4,7 +4,7 @@ pipeline {
     stage('check') {
       steps {
               sh 'pwd'
-              sh 'echo "hi"'
+              sh 'echo "hi d"'
               sh 'pwd'
               sh 'free'
       }
