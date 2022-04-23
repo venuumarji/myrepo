@@ -1,5 +1,5 @@
 pipeline {
-  agent {label 'tomcat'}
+  agent any
   stages {
     stage('check') {
       steps {
