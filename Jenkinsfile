@@ -8,7 +8,7 @@ pipeline {
               sh 'pwd'
               sh 'free'
               sh 'sudo apt update'
-              sh 'ls'
+              sh 'ls -a'
       }
     }
   }
